@@ -24,7 +24,7 @@
 
 <?php 
 
-  if (!isset($_GET["Message"])){
+  if (!isset($_POST["Message"])){
 	  echo "Bouh";
   }
   else{ 
